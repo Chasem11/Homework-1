@@ -1,0 +1,13 @@
+.schedule-board {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+  }
+  
+  @media (max-width: 600px) {
+    .schedule-board {
+      grid-template-columns: 1fr; /* Stack cards on smaller screens */
+    }
+  }

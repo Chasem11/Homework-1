@@ -1,0 +1,35 @@
+.game-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 16px;
+    text-align: center;
+  }
+  
+  .game-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .game-card h3 {
+    margin: 0.5em 0;
+  }
+  
+  .game-card p {
+    color: #555;
+  }
+  
+  .game-card button {
+    background-color: #007bff; /* Dolphins team color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 1em;
+  }
+  
+  .game-card button:hover {
+    background-color: #0056b3;
+  }
