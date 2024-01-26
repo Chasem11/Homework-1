@@ -14,18 +14,22 @@ body, html {
   color: white;
   padding: 0.5rem 1rem; 
   width: 100%;
+  height: 12%;
   position: fixed; 
   top: 0; 
   left: 0; 
-  z-index: 1000;
 }
 
 .App {
-  padding-top: 60px; 
+  padding-top: 160px; 
 }
 
 .logo {
   height: 100px; 
   width: auto;
   margin-right: 1rem;
+}
+
+.schedule-div {
+  justify-content: center;
 }
