@@ -26,7 +26,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='file:///private/var/folders/qy/1sbdy9h920zbjd5jc1p9swp40000gn/T/8e86fb9065d2b675c39dfbebd9e89765/Kapture%202024-01-27%20at%2013.46.20.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Video Walkthrough](https://github.com/COP4808-Spring2024-Full-Stack-Webdev/hw1-Chasem11/blob/main/my-vite-app/src/assets/8dswhp.gif?raw=true)
+
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -37,11 +39,11 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+A challenege I had while making this app was specifically with formatting the css. I had a hard time having the game cards display in the center of the screen. I also had some troubles getting the navbar to not cut off any of the images at the top of the page.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2024] [Chase Moffat]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
