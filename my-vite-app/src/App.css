@@ -21,7 +21,13 @@ body, html {
 }
 
 .App {
-  padding-top: 160px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 160px;
+  padding-right: 20px;
 }
 
 .logo {

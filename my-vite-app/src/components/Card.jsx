@@ -8,7 +8,7 @@ const GameCard = ({ game }) => {
       <h3>{game.opponent}</h3>
       <h4>{game.date}</h4>
       <p>{game.location}</p> 
-      <button onClick={() => window.open(game.link, "_blank")}>View Details</button>
+      <button onClick={() => window.open("https://www.ticketmaster.com/miami-dolphins-tickets/artist/805964", "_blank")}>View Details</button>
     </div>
   );
 }

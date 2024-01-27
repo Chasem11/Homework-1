@@ -1,13 +1,26 @@
 .schedule-board {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); 
-    gap: 16px; 
-    padding: 16px; 
-    margin-top: 1rem; 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  padding: 16px;
+  margin: 1rem auto;
+  max-width: calc(100% - 40px);
+}
+
+@media (max-width: 1024px) {
+  .schedule-board {
+    grid-template-columns: repeat(3, 1fr);
   }
-  
-  @media (max-width: 600px) {
-    .schedule-board {
-      grid-template-columns: 1fr;
-    }
+}
+
+@media (max-width: 768px) {
+  .schedule-board {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media (max-width: 600px) {
+  .schedule-board {
+    grid-template-columns: 1fr;
+  }
+}

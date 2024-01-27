@@ -1,5 +1,5 @@
 .game-card {
-    width: 300px;
+    width: 100%;
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
@@ -22,7 +22,7 @@
   }
   
   .game-card button {
-    background-color: #007bff; /* Dolphins team color */
+    background-color: #007bff;
     color: white;
     border: none;
     padding: 10px 20px;
