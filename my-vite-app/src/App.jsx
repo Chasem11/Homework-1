@@ -30,14 +30,14 @@ function App() {
       opponent: 'Buffalo Bills',
       date: '2023-10-01',
       location: 'Highmark Stadium',
-      image: 'https://blog.ticketmaster.com/wp-content/uploads/Gillette-Stadium-2-1024x768.jpg',
+      image: 'https://oldstadiumjourney.com/wp-content/uploads/2021/09/Highmark-Stadium-Field.jpg',
     },
     {
       id: 5,
       opponent: 'New York Giants',
       date: '2023-10-08',
       location: 'Hard Rock Stadium',
-      image: 'https://oldstadiumjourney.com/wp-content/uploads/2021/09/Highmark-Stadium-Field.jpg',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Interior_of_updated_Hard_Rock_Stadium.jpg/287px-Interior_of_updated_Hard_Rock_Stadium.jpg',
     },
     {
       id: 6,
